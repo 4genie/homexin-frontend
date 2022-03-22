@@ -1,6 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import { ResetStyle, GlobalStyle } from './styles/globalStyle'
+import { ThemeProvider } from 'styled-components'
+import theme from './styles/theme'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <ResetStyle />
+    <GlobalStyle />
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+)

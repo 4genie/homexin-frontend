@@ -71,7 +71,7 @@ export const MemberInfoEdit = styled.button`
   width: 7.5625rem;
   padding: 0.4375rem 1.1875rem;
   margin: 1rem auto 0px;
-  background: ${(props) => props.theme.primary_100};
+  background: ${(props) => props.theme.primary_200};
   border-radius: 0.3125rem;
   font-weight: 500;
   font-size: 1.125rem;
@@ -79,11 +79,11 @@ export const MemberInfoEdit = styled.button`
   letter-spacing: 1.5px;
   color: ${(props) => props.theme.general_100};
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transition: ease-in 0.15s;
+  // transition: ease-in 0.15s;
 
-  &:hover {
-    background: ${(props) => props.theme.primary_200};
-  }
+  // &:hover {
+  //   background: ${(props) => props.theme.primary_200};
+  // }
 `
 
 export const MemberInfoRemind = styled.div`

@@ -79,11 +79,6 @@ export const MemberInfoEdit = styled.button`
   letter-spacing: 1.5px;
   color: ${(props) => props.theme.general_100};
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  // transition: ease-in 0.15s;
-
-  // &:hover {
-  //   background: ${(props) => props.theme.primary_200};
-  // }
 `
 
 export const MemberInfoRemind = styled.div`

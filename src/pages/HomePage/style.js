@@ -176,9 +176,4 @@ export const RecommendedCode = styled.button`
   text-align: center;
   letter-spacing: 1.5px;
   color: ${(props) => props.theme.general_100};
-  // transition: ease-in 0.15s;
-
-  // &:hover {
-  //   background: ${(props) => props.theme.primary_200};
-  // }
 `

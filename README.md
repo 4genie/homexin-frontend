@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# homexin-frontend-project Demo <!-- omit in toc -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+ <a href="#" target="_blank">
+    <img alt="Wireframe" src="https://img.shields.io/badge/Mockup-Yes-yellow" />
+  </a>
+</p>
 
-## Available Scripts
+Homexin APP is a platform that make you find Certified Nursing Assistances easier and faster!
 
-In the project directory, you can run:
+![](https://i.imgur.com/YRwdnx2.jpg)
 
-### `npm start`
+## Menu
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Built With](#Built-With)
+- [Demo](#Demo)
+- [Getting Started](#Getting-Started)
+- [Directory](#Directory)
+- [Contributor](#Contributor)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- [React Hooks](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [styled-components](https://styled-components.com/docs/basics)
+- [react-mobile-datepicker](https://github.com/lanjingling0510/react-mobile-datepicker#readme)
+- [prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/docs/user-guide/configuring/)
+- [Netlify](https://docs.netlify.com/?_ga=2.190209259.1714598831.1634974332-1934839556.1633767074)
+- [Figma](https://www.figma.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+![](https://i.imgur.com/8IgBpAW.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this [Homexin APP Demo](https://homexin-frontend.netlify.app/), beside the home page, you can also link to the member page which showing user's profile, user can edit their profile and infomation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Home page**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- go to member page
+  <img src="https://i.imgur.com/TuiAzF0.gif" width="200">
+- if page closed
+  <img src="https://i.imgur.com/aXWgZFQ.gif" width="200">
+- copy user's recommended code
+  <img src="https://i.imgur.com/IinVYKO.gif" width="200">
 
-### `npm run eject`
+**Member Page**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- edit member profile
+  <img src="https://i.imgur.com/MoSMeiq.gif " width="200">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repo to local envirment
+   ```
+   https://github.com/4genie/homexin-frontend.git
+   ```
+2. Install NPM packages
+   ```
+   npm install
+   ```
+3. Runs the app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   npm start
+   ```
 
-## Learn More
+   Now, you are in the development mode.
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Deployment
+   ```
+    npm run build
+   ```
+   Builds the app for production to the `build` folder.
+   See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Directory
 
-### Code Splitting
+📦src
+┣ 📂components
+┃ ┣ 📂popup
+┃ ┃ ┣ 📜Backdrop.js
+┃ ┃ ┣ 📜FunctionPopup.js
+┃ ┃ ┗ 📜Popup.js
+┃ ┣ 📜table.js
+┃ ┗ 📜textField.js
+┣ 📂constants
+┃ ┗ 📜cities.js
+┣ 📂hooks
+┃ ┣ 📜useEditMember.js
+┃ ┗ 📜useHome.js
+┣ 📂images
+┃ ┣ 📜001-trophy 1.svg
+┃ ┣ 📜003-money-bag 1.svg
+┃ ┣ 📜004-cv 1.svg
+┃ ┣ 📜004-cv 2.png
+┃ ┗ 📜userAvatar.png
+┣ 📂pages
+┃ ┣ 📂EditMemberPage
+┃ ┃ ┣ 📜DatePicker.css
+┃ ┃ ┣ 📜EditMemberPage.js
+┃ ┃ ┣ 📜index.js
+┃ ┃ ┗ 📜style.js
+┃ ┣ 📂HomePage
+┃ ┃ ┣ 📜HomePage.js
+┃ ┃ ┣ 📜index.js
+┃ ┃ ┗ 📜style.js
+┃ ┗ 📂MemberPage
+┃ ┃ ┣ 📜index.js
+┃ ┃ ┣ 📜MemberPage.js
+┃ ┃ ┗ 📜style.js
+┣ 📂styles
+┃ ┣ 📜breakpoints.js
+┃ ┣ 📜globalStyle.js
+┃ ┗ 📜theme.js
+┣ 📜App.js
+┣ 📜index.js
+┗ 📜userDataApi.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributor
 
-### Analyzing the Bundle Size
+<a href="https://github.com/4genie/homexin-frontend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=4genie/homexin-frontend" width="30px"/>
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Homexin Company engineer - E.D.](https://github.com/poppin-mice)
 
-### Making a Progressive Web App
+1. Providing the mockup design and requirement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Fron-end developer - Genie](https://github.com/4genie)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Building Home Page, Member Page, and Edit Member Page layout and function.
+2. Building each pages' router.
+3. Deploying demo project on Netlify.

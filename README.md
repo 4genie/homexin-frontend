@@ -10,14 +10,6 @@ Homexin APP is a platform that make you find Certified Nursing Assistances easie
 
 ![](https://i.imgur.com/YRwdnx2.jpg)
 
-## Menu
-
-- [Built With](#Built-With)
-- [Demo](#Demo)
-- [Getting Started](#Getting-Started)
-- [Directory](#Directory)
-- [Contributor](#Contributor)
-
 ## Built With
 
 - [React Hooks](https://reactjs.org/)
@@ -77,46 +69,48 @@ In this [Homexin APP Demo](https://homexin-frontend.netlify.app/), beside the ho
 
 ## Directory
 
+```
 📦src
-┣ 📂components
-┃ ┣ 📂popup
-┃ ┃ ┣ 📜Backdrop.js
-┃ ┃ ┣ 📜FunctionPopup.js
-┃ ┃ ┗ 📜Popup.js
-┃ ┣ 📜table.js
-┃ ┗ 📜textField.js
-┣ 📂constants
-┃ ┗ 📜cities.js
-┣ 📂hooks
-┃ ┣ 📜useEditMember.js
-┃ ┗ 📜useHome.js
-┣ 📂images
-┃ ┣ 📜001-trophy 1.svg
-┃ ┣ 📜003-money-bag 1.svg
-┃ ┣ 📜004-cv 1.svg
-┃ ┣ 📜004-cv 2.png
-┃ ┗ 📜userAvatar.png
-┣ 📂pages
-┃ ┣ 📂EditMemberPage
-┃ ┃ ┣ 📜DatePicker.css
-┃ ┃ ┣ 📜EditMemberPage.js
-┃ ┃ ┣ 📜index.js
-┃ ┃ ┗ 📜style.js
-┃ ┣ 📂HomePage
-┃ ┃ ┣ 📜HomePage.js
-┃ ┃ ┣ 📜index.js
-┃ ┃ ┗ 📜style.js
-┃ ┗ 📂MemberPage
-┃ ┃ ┣ 📜index.js
-┃ ┃ ┣ 📜MemberPage.js
-┃ ┃ ┗ 📜style.js
-┣ 📂styles
-┃ ┣ 📜breakpoints.js
-┃ ┣ 📜globalStyle.js
-┃ ┗ 📜theme.js
-┣ 📜App.js
-┣ 📜index.js
-┗ 📜userDataApi.js
+ ┣ 📂components
+ ┃ ┣ 📂popup
+ ┃ ┃ ┣ 📜Backdrop.js
+ ┃ ┃ ┣ 📜FunctionPopup.js
+ ┃ ┃ ┗ 📜Popup.js
+ ┃ ┣ 📜table.js
+ ┃ ┗ 📜textField.js
+ ┣ 📂constants
+ ┃ ┗ 📜cities.js
+ ┣ 📂hooks
+ ┃ ┣ 📜useEditMember.js
+ ┃ ┗ 📜useHome.js
+ ┣ 📂images
+ ┃ ┣ 📜001-trophy 1.svg
+ ┃ ┣ 📜003-money-bag 1.svg
+ ┃ ┣ 📜004-cv 1.svg
+ ┃ ┣ 📜004-cv 2.png
+ ┃ ┗ 📜userAvatar.png
+ ┣ 📂pages
+ ┃ ┣ 📂EditMemberPage
+ ┃ ┃ ┣ 📜DatePicker.css
+ ┃ ┃ ┣ 📜EditMemberPage.js
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜style.js
+ ┃ ┣ 📂HomePage
+ ┃ ┃ ┣ 📜HomePage.js
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜style.js
+ ┃ ┗ 📂MemberPage
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┣ 📜MemberPage.js
+ ┃ ┃ ┗ 📜style.js
+ ┣ 📂styles
+ ┃ ┣ 📜breakpoints.js
+ ┃ ┣ 📜globalStyle.js
+ ┃ ┗ 📜theme.js
+ ┣ 📜App.js
+ ┣ 📜index.js
+ ┗ 📜userDataApi.js
+```
 
 ## Contributor
 

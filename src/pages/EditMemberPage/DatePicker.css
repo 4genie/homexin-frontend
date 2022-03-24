@@ -1,0 +1,4 @@
+/* datepicker popup's background */
+.Modal-Portal > .datepicker-modal {
+  background-color: transparent;
+}

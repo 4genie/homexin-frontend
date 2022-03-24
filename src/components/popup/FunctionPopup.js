@@ -67,5 +67,5 @@ export default function FunctionPopup({ handleTogglePopUp, closedPage }) {
 
 FunctionPopup.propTypes = {
   handleTogglePopUp: PropTypes.func,
-  closedPage: PropTypes.bool,
+  closedPage: PropTypes.string,
 }

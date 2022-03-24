@@ -28,6 +28,7 @@ let users = {
   },
 }
 
+// get all users
 export const getUsers = () =>
   new Promise((resolve, reject) => {
     if (!users) {
@@ -37,6 +38,7 @@ export const getUsers = () =>
     setTimeout(() => resolve(Object.values(users)), 250)
   })
 
+// get specific user by id
 export const getUser = (id) =>
   new Promise((resolve, reject) => {
     const user = users[id]
@@ -48,6 +50,7 @@ export const getUser = (id) =>
     setTimeout(() => resolve(users[id]), 250)
   })
 
+// update user's information
 export const updateUser = (id, data) =>
   new Promise((resolve, reject) => {
     if (!users[id]) {

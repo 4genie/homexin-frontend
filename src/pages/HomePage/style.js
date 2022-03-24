@@ -169,16 +169,16 @@ export const RecommendedCode = styled.button`
   width: 189px;
   padding: 0.625rem 0.9375rem;
   margin: 1.0625rem auto 0px;
-  background: ${(props) => props.theme.primary_100};
+  background: ${(props) => props.theme.primary_200};
   border-radius: 0.3125rem;
   font-weight: 500;
   font-size: 1.125rem;
   text-align: center;
   letter-spacing: 1.5px;
   color: ${(props) => props.theme.general_100};
-  transition: ease-in 0.15s;
+  // transition: ease-in 0.15s;
 
-  &:hover {
-    background: ${(props) => props.theme.primary_200};
-  }
+  // &:hover {
+  //   background: ${(props) => props.theme.primary_200};
+  // }
 `

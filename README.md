@@ -30,16 +30,16 @@ In this [Homexin APP Demo](https://homexin-frontend.netlify.app/), beside the ho
 **Home page**
 
 - go to member page
-  <img src="https://i.imgur.com/TuiAzF0.gif" width="200">
+<img src="https://i.imgur.com/TuiAzF0.gif" width="200">
 - if page closed
-  <img src="https://i.imgur.com/aXWgZFQ.gif" width="200">
+<img src="https://i.imgur.com/aXWgZFQ.gif" width="200">
 - copy user's recommended code
-  <img src="https://i.imgur.com/IinVYKO.gif" width="200">
+<img src="https://i.imgur.com/IinVYKO.gif" width="200">
 
 **Member Page**
 
 - edit member profile
-  <img src="https://i.imgur.com/MoSMeiq.gif " width="200">
+<img src="https://i.imgur.com/MoSMeiq.gif " width="200">
 
 ## Getting Started
 
